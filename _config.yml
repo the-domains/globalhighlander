@@ -1,28 +1,40 @@
-name: Global Highlander
-favicon: null
 layout_spectrum: 0.5158897619694471
-typography_spectrum: 0.5855785657186061
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
-  brandStrength: 0.9922650672961026
-  lightness: 0.6772971160244197
-  saturation: 0.8454106617718935
-  rhythmicContrast: 0.7113521203864366
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8454106617718935
+  brandStrength: 1
+  lightness: 0.6772971160244197
+  brandColors:
+    - '#2766B4'
+    - '#E8F2FB'
+    - '#050403'
+    - '#7E9239'
+    - '#800203'
+  rhythmicContrast: 0.7113521203864366
+typography_spectrum: 0.5855785657186061
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Global Highlander
